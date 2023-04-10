@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/background.png);
+    background-position:center;
+    background-size:cover;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+.navbar{
+    height:12%;
+    display:flex ;
+    align-items: center;
+}
+.logo{
+    width:50px;
+    cursor:pointer;
+}
+.manu-icon{
+    width:30px;
+    cursor:pointer;
+    margin-left:40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:70px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size: 15px;
+}
+.row{
+    display:flex;
+    height:88%;
+    align-items:center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color:#fff;
+    font-size:100px;
+}
+p{
+    color:white;
+    font-size:13px;
+    line-height:15px;
+}
+button{
+    width:180px;
+    color:#000;
+    font-size:12px;
+    padding:12px 0px;
+    background:white;
+    border:0;
+    border-radius:20px;
+    outline:none;
+    margin-top:30px;
+}
+.card{
+    width:250px;
+    height:270px;
+    display: inline-block;
+    border-radius:10px;
+    padding:15px 25px;
+    cursor:pointer;
+    margin:10px 15px;
+}
+.card1{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)),url(../img/pic-1.png);
+    background-position:center;
+    background-size:cover;
+    transition:transform 0.5s;
+}
+.card2{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)),url(../img/pic-2.png);
+    background-position:center;
+    background-size:cover;
+    transition:transform 0.5s;
+}
+.card3{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)),url(../img/pic-3.png);
+    background-position:center;
+    background-size:cover;
+    transition:transform 0.5s;
+}
+.card4{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(255,255,255,0.1)),url(../img/pic-4.png);
+    background-position:center;
+    background-size:cover;
+    transition:transform 0.5s;
+}
+
+.card:hover{
+    transform:translateY(-10px)
+}
+h4{
+    color:#fff;
+    text-shadow:0 0 5px #999;
+}
+.card p{
+    text-shadow:0 0 15px #000;
+    font-size:11px;
+}
